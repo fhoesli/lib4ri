@@ -1,0 +1,2249 @@
+[33mcommit bd1f97d2962f49f4a8730b126710fa3fcf159e3b[m
+Author: fhoesli <frank.hoesli@lib4ri.ch>
+Date:   Thu Mar 29 15:14:06 2018 +0200
+
+    Organizational Units alphanumerically sorted now.
+
+[33mcommit 01a26e19ef4acb9e406d464a3b3d45bfbc6fdfde[m
+Author: fhoesli <frank.hoesli@lib4ri.ch>
+Date:   Thu Mar 29 14:05:14 2018 +0200
+
+    Organizational Units alphanumerically sorted now.
+
+[33mcommit e4f7b924c97fb266e87e3dbae229c378906b4f72[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Wed Mar 7 08:14:31 2018 +0100
+
+    Moved to other module
+
+[33mcommit 7add749b2179ddc4e895229bf3440e5679c23e5e[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Tue Mar 6 17:39:27 2018 +0100
+
+    A little better
+
+[33mcommit 129b36e251a1fbaf2b27c4c54bf54e6e4cc6fe04[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Tue Mar 6 17:13:00 2018 +0100
+
+    Added link between islandora object and webform submission (rough)
+
+[33mcommit a98d2b356f7305f57a37cff94744c12fa908337f[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Thu Feb 22 11:37:04 2018 +0100
+
+    Fixed link to author's publications
+
+[33mcommit 5e811342b61d62cd04bba31a69244752927e8ffc[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Wed Jan 17 15:06:36 2018 +0100
+
+    Fixed first letter upper case in 'Organizational Unit' drop down menu
+
+[33mcommit 8df51b654995062c28a916538ca004a3ea38c99d[m
+Author: Federico Cantini <federico.cantini@lib4ri.ch>
+Date:   Tue Jan 16 15:29:09 2018 +0100
+
+    Fixed publication types mispelling in Advanced Search
+    
+    Added a custom function to properly manage exceptions in 'first letter uppercase'
+
+[33mcommit 88280b51bd215b0eaacecfe08ccaffcf84664d64[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Tue Dec 12 11:04:44 2017 +0100
+
+    Deal with islandora_scholar update
+    
+    The doi importer of islandora_scholar was updated to use
+    DOMDocument instead of SimpleXMLElement
+    (see ISLANDORA-1575 and related commits on 2016-08-18)
+
+[33mcommit 324f987dd6263b7ce39b783016ec759f28edbfde[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Sun Aug 20 00:00:00 2017 +0200
+
+    Fix a bug that prevented correct mods/genre attributes when switching publication type
+
+[33mcommit 245f9273e1ac67a205beaa43c18e04dd7ff7e648[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Sun Aug 13 00:00:00 2017 +0200
+
+    Change default doi search field to case insensitive
+
+[33mcommit 599988dcdbc10a4b573eae3cf8dfad968841b793[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Wed Nov 8 09:55:18 2017 -0400
+
+    Removed partial purge code, migrated it to new lib4ri_purge module (#106)
+
+[33mcommit 4a0bf3fe31593ad8499da0b7043da22780dd75de[m
+Author: Hubi-CH <Hubi-CH@users.noreply.github.com>
+Date:   Wed Oct 11 10:08:54 2017 +0200
+
+    Changed createdDate formatting for RSS feeds
+
+[33mcommit fb2e373671bbebed0cf4aabc630df27a036c0aae[m
+Merge: 9444084 ae58329
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Sep 28 10:28:31 2017 -0300
+
+    Merge pull request #105 from ryanbrinn/SUP-1223
+    
+    bug fix
+
+[33mcommit ae583298b537eec36e72fca48c9e02253834d1db[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Thu Sep 28 10:20:34 2017 -0300
+
+    added large solrlimit
+
+[33mcommit 0570191fdf36ef0cd042a5fb96166f5d241e6f3e[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Wed Sep 27 16:13:48 2017 -0300
+
+    bug fix
+
+[33mcommit 94440849af39e246d4cbe75eeea8d0d6cac6e0f4[m
+Merge: fcfbe24 593bff6
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Tue Sep 26 17:52:04 2017 -0300
+
+    Merge pull request #104 from ryanbrinn/SUP-1223
+    
+    Sup 1223
+
+[33mcommit 593bff6aaf5f3cb5920cd1f91ac485d2fd218b11[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 17:42:18 2017 -0300
+
+    code review
+
+[33mcommit fdf23c99230bcfc1d2f96f844620f565df84e8e4[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 17:29:31 2017 -0300
+
+    code review
+
+[33mcommit a7b722edb906c7fd145fc26c2b04e756f3c5ba6b[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 17:27:25 2017 -0300
+
+    code review
+
+[33mcommit 4f1a32a3aee11220833d4209a6dd7a471c5cca88[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 17:21:42 2017 -0300
+
+    code review
+
+[33mcommit 73e23dcf1e3b1bc7abfe61dd006905f325dc6b9d[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 14:48:58 2017 -0300
+
+    code review
+
+[33mcommit 8093ed7887797814894ed2a32ddb2f673fd82a9b[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 12:30:18 2017 -0300
+
+    code review
+
+[33mcommit b102ebf9c8c435f5258b02744ed7dc2d0865fd31[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Tue Sep 26 11:28:05 2017 -0300
+
+    code review
+
+[33mcommit 81af94d02117ff496c2959135e8c2ba0d87fed42[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Fri Sep 22 17:17:42 2017 -0300
+
+    removed commented out stuff.
+
+[33mcommit 9cc661ffc26f4bad508b7224738c4ed2795bd16e[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Fri Sep 22 13:45:38 2017 -0300
+
+    Code review comments.
+
+[33mcommit fc020a82dd26621c8d663326cb70d901633b687a[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Thu Sep 21 13:31:18 2017 -0300
+
+    fixes.
+
+[33mcommit b3de4371a37727d730abe67409e5b1827ab62274[m
+Author: Ryan Brinn <ryanbrinn@gmail.com>
+Date:   Thu Sep 21 13:28:47 2017 -0300
+
+    fixes.
+
+[33mcommit 867cb1ccd5af601d0b78a41e96bd7faaf1cbcaa6[m
+Author: vagrant <vagrant@ryanb-vagrant-lib4ri.25859.dgicloud.com>
+Date:   Thu Sep 21 13:20:37 2017 -0300
+
+    initial commit.
+
+[33mcommit fcfbe2462e7e8da669579fcfe6af81a405ea7b21[m
+Author: Hubert Keller <hubert.keller@lib4ri.ch>
+Date:   Fri Sep 8 14:17:22 2017 +0200
+
+    Added 'Erratum' document version
+
+[33mcommit 9ca40b9c736ad6bdaa8bf3b90165eee55fcb47c2[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Jul 26 13:08:28 2017 +0200
+
+    Fix typos in variable name
+
+[33mcommit b7f85f35d0bd75eacc843f2a519bddbb5da53030[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Jul 26 12:38:50 2017 +0200
+
+    Quickfix: Add possibility to bypass DOI-validation with leading '!'
+    
+    Also, change default DOI solr-field and correct a typo
+
+[33mcommit 7b9b339bac17b6be6d45bd3633b7e3306e724859[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Tue Jul 25 13:46:01 2017 +0200
+
+    Quickfix: Better DOI validation
+
+[33mcommit 98cee80a854d6b88be4fee9d72cc2085c43993ed[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Fri Jul 21 15:53:33 2017 +0200
+
+    Check for existing DOIs
+    
+    This extension will complain if it finds objects with the DOI given when
+    * ingesting an object via DOI-import
+    * creating a new object and manually insert an existing DOI
+    * editing an object with a DOI that exists elsewhere
+    
+    It should find all objects in the same namespace as the object under validation, or in the same namespace as the collection the object under validation is in. It should not complain on object with unrelated namespace (both of the object and the collections it is in).
+    
+    Finally, this extension provides a simplistic form in which one can paste several DOIs and will give links to existing objects (useful for batch-ingests).
+
+[33mcommit 386fe31cf0b2e6a887d2ef8cb21385f1831b9f4e[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Fri Jul 21 15:48:38 2017 +0200
+
+    Update of list of variables (formerly overlooked)
+
+[33mcommit 318d982ef27df0242a88fe4ecf087676eddb6a9f[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Mon May 22 10:16:54 2017 +0200
+
+    Interfere with islandora_authority
+    
+    Avoid non-empty islandora_authority_hidden fields upon deletion of the sibling islandora_authority_texfields (bug in islandora_authority), and allow the content of such hidden fields to be copied to a field in a neighbouring set of islandora_authority fields, triggering autocompletion.
+
+[33mcommit a6f7a2e814b3a2b03b7e60abf0a346eb61aaee84[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 14:55:39 2017 +0100
+
+    Add two new publication subtypes ("Brochure" and "Conference Proceedings")
+
+[33mcommit 5e626a0098152233389859b6f6266f5548730c79[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 16:53:24 2017 +0100
+
+    Redirect to object view rather than staying on page after single pdf upload
+
+[33mcommit 5bd8d0294a39300ffea6d821a4af69ee5f05f463[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 14:47:09 2017 +0100
+
+    Long due update (and reordering) of list of variables
+
+[33mcommit 8c4fc0a94f6d06d7793468539db3c4ee3cea2a84[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 13:32:56 2017 +0100
+
+    Fix typo so that searching for e-issn now works, as well
+
+[33mcommit 6f55806ec3fa12460db2dae837790a97636b5f34[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 13:27:08 2017 +0100
+
+    Handle multiple (comma-separated) solr fields correctly (affects variable 'lib4ridora_organization_block_organization_field' which can be configured in the field 'Organization Solr Fields' on the site '/admin/structure/block/manage/lib4ridora/lib4ridora_organizational_units/configure').
+
+[33mcommit d69eeb6b1824045ba266b34857b85492711bf402[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Mar 16 13:14:23 2017 +0100
+
+    Allow for commas in name fields when displaying CSLed authors; also, allow for unset name fields and missing period on final initial; finally, correct spacing between authors
+
+[33mcommit eb953e696f4de44c206fac4c97884e2100a40796[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Jan 26 16:54:28 2017 +0100
+
+    Increase number of recent additions shown on frontpage
+
+[33mcommit e39ff2a00c474fee0a1f372bf910210894d65e39[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Nov 16 10:53:51 2016 +0100
+
+    Give solr some time to update the index before redirecting...
+
+[33mcommit 68aeeb00a1a00cdfe522386b6057cbf6c38dd62e[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Sat Nov 12 00:04:51 2016 +0100
+
+    Add pathauto-functionality for PDF datastreams
+
+[33mcommit 53d631e11621dedbcd435ee45cbf22af6565294f[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Fri Nov 11 16:52:04 2016 +0100
+
+    Nuke default "Embargo" submenu of the "Manage" tab
+
+[33mcommit 23f0fa63a42b2b1bb97c46f39081172f2d96f888[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Fri Nov 11 15:03:29 2016 +0100
+
+    Revert to previous version, since modification was not necessary and, actually, causes problems with URL aliases
+
+[33mcommit da55a956cf54220048a00868ab11f1147a76537e[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Nov 9 17:30:49 2016 +0100
+
+    Redirect to object view rather than management after citation edit
+
+[33mcommit e41fd996f35f2627c98bd045bc902a7846788f6c[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Mon Oct 24 15:41:44 2016 +0200
+
+    Fixed wrong author-linking in csl-ed line on detailed record view; Added link to "all publications by" on author-object page (requires PID-field with hyperlink in /admin/islandora/search/islandora_solr/metadata -> Field Configuration: Scholar)
+
+[33mcommit 43a4b9b31a2de4fdc655713cb36af082174cafc1[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Mon Oct 24 15:34:33 2016 +0200
+
+    Added possibility to configure publication type mappings on a genre subtype basis, rather than the genre alone
+
+[33mcommit 8bbb5350cbae471d917d5f4ee25d3be66fa2d2b4[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Oct 19 19:04:26 2016 +0200
+
+    Correct default behaviour regarding genre semantics
+
+[33mcommit 6bcde4807e898590de68f039b8b5255a8976ffd7[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Oct 19 16:49:28 2016 +0200
+
+    Deal with genre-semantics; nuke obsolete publication type "Thesis"; render html-tags on access denied page; allow same value in from and to fields of the advanced search
+
+[33mcommit ce94aba1587777b48b2fbf307cff841ae79bef97[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Oct 19 16:46:49 2016 +0200
+
+    Display organisational units via their ids on the front page
+
+[33mcommit 9546dc5fa036be53eb2969b17bec4d96fbc7011a[m
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Wed Oct 19 16:45:48 2016 +0200
+
+    Make URL aliasing work better
+
+[33mcommit 2d87c0a5d083459b6a0eda55b96c72531f4ed22d[m
+Merge: 073b0f5 075e9f0
+Author: d-r-p <d-r-p@users.noreply.github.com>
+Date:   Thu Oct 6 17:54:59 2016 +0200
+
+    Merge pull request #103 from nhart/7.x-prod
+    
+    7.x prod
+
+[33mcommit 075e9f0601763049a68f3ce29ed8433038f6b3c4[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Tue Sep 27 20:01:12 2016 +0200
+
+    updates for @d-r-p
+
+[33mcommit f2e77d1fbb2a9ea37ece5f5a0d8d63309185737d[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Tue Sep 20 16:15:03 2016 +0200
+
+    remove debug info
+
+[33mcommit 8aed3e8e334211569ec300c20f919cc615685645[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Mon Sep 19 16:25:23 2016 +0200
+
+    remove all commtted out code and inline docs
+
+[33mcommit 3d0d51ac794b21db2941d67a111339c63beb26e0[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Mon Sep 19 16:06:35 2016 +0200
+
+    re-add ip function clean up
+
+[33mcommit 3a6d165785f782aa0816270b0a1a88f14e87a069[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Mon Sep 19 15:56:33 2016 +0200
+
+    remove client copies
+
+[33mcommit e225d97d0871f08bf15c5b3ab66ddb9ba1116f84[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Mon Sep 19 15:52:45 2016 +0200
+
+    client updates from prod
+
+[33mcommit 073b0f5847b9dd32adcdbe04ea3afa36959402e7[m
+Merge: a1adc8b c8b10d6
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Tue Sep 13 17:21:17 2016 -0300
+
+    Merge pull request #101 from nhart/7.x
+    
+    client requests and bug fix
+
+[33mcommit c8b10d6d66dc4c9bdf6ba087d3b082b03ee70ac6[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Tue Sep 13 15:13:13 2016 -0300
+
+    revert ds access changes based on client feedback. change ip range check function
+
+[33mcommit 9aae54510f4c0d533cfd023a3dc66f9d85dc244f[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Fri Sep 9 15:06:05 2016 -0300
+
+    hide solr fields if user is outside ip range. fix up datastream purge hook
+
+[33mcommit aa03446707bf153b81c651decf6a7e8aa41ea2e4[m
+Author: Nelson Hart <nelson.hart@gmail.com>
+Date:   Fri Sep 9 08:18:55 2016 -0300
+
+    dont purge relsint, just remove ds relationships
+
+[33mcommit a1adc8b1a16a4d8bbd471b98d3fb2436fcf95423[m
+Merge: 04c0fae 84ce8bc
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Wed Jul 27 10:38:10 2016 -0300
+
+    Merge pull request #100 from adam-vessey/7.x-SUP-671
+    
+    Double descriptions.
+
+[33mcommit 84ce8bcb8770ea9a280cdb0177647f0d1103304b[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Jul 26 14:28:13 2016 -0300
+
+    Fix references to islandora_solr module.
+
+[33mcommit b209177cc230101d8b076ec1c552e86e29fdcb9e[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Jul 26 14:22:29 2016 -0300
+
+    Coding standards.
+
+[33mcommit 6a5a92703a9f3e4ad03a68cfb950ea004645921e[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Jul 26 14:12:08 2016 -0300
+
+    Pull shared code out to include, and avoid call-time reference issues.
+
+[33mcommit dca0e2a77a6f82ec059849773bbb0d06ee802909[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Jul 5 16:24:13 2016 -0300
+
+    Dealing with the doulbe desriptions.
+
+[33mcommit 04c0faeb311024984500ace888970c6bc928c09c[m
+Merge: f228293 d6f45b1
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Thu Jun 30 16:10:16 2016 -0300
+
+    Merge pull request #98 from discoverygarden/SUP-647
+    
+    Sup 647 into 7.x
+
+[33mcommit d6f45b11ee9141a29b676e8d3ead76bed37246a5[m
+Merge: a921967 f51b1a4
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Thu Jun 30 16:08:58 2016 -0300
+
+    Merge pull request #97 from knjackson30974/SUP-647
+    
+    reordering includes and adding include in full_text for constant.
+
+[33mcommit f51b1a4f9dae6b0190941559383e8cf1c2d9aaa3[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Jun 30 13:35:58 2016 -0300
+
+    reordering includes and adding include in full_text for constant.
+
+[33mcommit f228293919a2624f9f4d8422a315d974212fa4b6[m
+Merge: 15807df a921967
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Thu Jun 30 11:14:05 2016 -0300
+
+    Merge pull request #96 from discoverygarden/SUP-647
+    
+    Allowing the RELS-INT to be created when batch ingesting.
+
+[33mcommit a921967a01e92c34e08e327f45ad65d9b1ce83bb[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Wed Jun 29 15:37:56 2016 -0300
+
+    Allowing the RELS-INT to be created when batch ingesting.
+
+[33mcommit 15807df22b0de5106f22b9479cb75e5aa4f3c834[m
+Merge: f7c07b9 8aad347
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Mon Jun 20 09:54:14 2016 -0300
+
+    Merge pull request #95 from knjackson30974/SUP-637
+    
+    Sup 637
+
+[33mcommit 8aad347cb327a9767c986389315a227d4f76df14[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Fri Jun 17 16:23:50 2016 -0300
+
+    Clean up.
+
+[33mcommit f9383ea9ad95f686b922792f4de1de71c0f7e526[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Fri Jun 17 16:21:14 2016 -0300
+
+    Adding in label value if it's change in the xml_form_builder_update_object function.
+
+[33mcommit f7c07b9c3bebffb08a68bdf8d606778c91a2504e[m
+Merge: 6395d98 eb559a0
+Author: Nigel Banks <nigelgbanks@users.noreply.github.com>
+Date:   Thu Jun 16 12:58:20 2016 +0100
+
+    Merge pull request #94 from knjackson30974/SUP-632
+    
+    Changing the defaults to what the client requested to deal with inges…
+
+[33mcommit eb559a06083cc9efe68d3861d7d862322531706e[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Wed Jun 15 14:15:18 2016 -0300
+
+    Changing the defaults to what the client requested to deal with ingests that do no show the embargo options form.
+
+[33mcommit 6395d98857bb79831fba80b394a7e5b8d3452a65[m
+Merge: 1e27619 bf6fb64
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Jun 9 10:36:16 2016 -0300
+
+    Merge pull request #91 from qadan/7.x-LIB-117
+    
+    rest of genres to form
+
+[33mcommit 1e27619e3f8f93b73730f43f107fa810ee1656b8[m
+Merge: 1117e03 35ea009
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Wed Jun 8 14:23:37 2016 -0300
+
+    Merge pull request #93 from knjackson30974/LIB115v2
+    
+    Quick change that is making the full text function have issues.
+
+[33mcommit 35ea00982b5ebd129562551ed29fafb23701fd0c[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Wed Jun 8 13:38:03 2016 -0300
+
+    Quick change that is making the full text function have issues.
+
+[33mcommit 1117e03c0e43e815950aad415cdcf145d2b2e058[m
+Merge: 5128bec 701596e
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Tue Jun 7 13:19:04 2016 -0300
+
+    Merge pull request #90 from knjackson30974/LIB-115
+    
+    Lib 115
+
+[33mcommit 5128becd5f9167fff6bcf250c749ddf88d9be859[m
+Merge: e60b450 251211f
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Tue Jun 7 12:58:10 2016 -0300
+
+    Merge pull request #92 from nigelgbanks/7.x-LIB-113
+    
+    Cron job to update the full-text RELS-EXT predicate when a embargo ex…
+
+[33mcommit 701596e8b23f6a51e98de87fbad930259b805ea4[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Jun 7 11:45:26 2016 -0300
+
+    Cleaning up syntax and adding the full text field to the admin form for availability field.
+
+[33mcommit 8f3503cc0b38fa5cb1f1b7f4e1af6d76b0a2e2d6[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Jun 7 11:30:31 2016 -0300
+
+    Cleanup.
+
+[33mcommit 47f8df022efd8fc5f2b4fa54f15446814cc374c1[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Jun 7 11:28:25 2016 -0300
+
+    Adding work around for objects with many pdf datastreams.
+
+[33mcommit 251211fa0b138f8a0cb025cc3bb1103cf6f3b204[m
+Author: Nigel Banks <nigel.g.banks@gmail.com>
+Date:   Tue Jun 7 14:43:56 2016 +0100
+
+    Drush is best cron.
+
+[33mcommit bf6fb64a8f1ec3b679ab898e2e55bb69047716d9[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Jun 6 16:10:19 2016 -0300
+
+    match against lowercased strings for genres
+
+[33mcommit 4aff3bfce460f556bc4c7e91224798646f5a5d10[m
+Author: Nigel Banks <nigel.g.banks@gmail.com>
+Date:   Mon Jun 6 13:11:37 2016 +0100
+
+    Cron job to update the full-text RELS-EXT predicate when a embargo expires
+
+[33mcommit 61db6d95cfe2721b1b7db49a8d8136acad814c9b[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Fri Jun 3 09:21:54 2016 -0300
+
+    Changing the filters slightly after testing.
+
+[33mcommit 02e9ca5a24595ba22121dd4ec5027daf53fa4cef[m
+Author: Kylea Jackson <knjackson30974@users.noreply.github.com>
+Date:   Fri Jun 3 09:02:42 2016 -0300
+
+    Adding islandora_solr_lesser_escape() per comments
+
+[33mcommit d2a6ccae82973a8cf72dcfd03bfe138484752e04[m
+Author: Kylea Jackson <knjackson30974@users.noreply.github.com>
+Date:   Thu Jun 2 12:42:42 2016 -0300
+
+    Removing break
+
+[33mcommit db185ed79d41e0b1bf883828d9386f7a0b951564[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Thu Jun 2 09:14:14 2016 -0300
+
+    pull from alias list, not property list
+
+[33mcommit bafc064944a11bf293da80d6f8e3dd8465a25f06[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Wed Jun 1 11:58:00 2016 -0300
+
+    unravelling the rabbit hole wait that's two different metaphors
+
+[33mcommit 44fbf4740709d9089b8c2521499360116b73a0fd[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue May 31 09:58:19 2016 -0300
+
+    breaking out lists into return values; also a tad of the coder fixies
+
+[33mcommit 5cfc161e68613f992e435d0bfb2f12c1fd0483cc[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue May 31 09:44:26 2016 -0300
+
+    rest of genres to form
+
+[33mcommit 3aad34cabb1539652041c90de90995c5862bd618[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu May 19 09:50:49 2016 -0300
+
+    Removing some stuff re comments
+
+[33mcommit 031b4a75d94cecfa8a1ff9f29636a8d7e646e399[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Wed May 18 13:38:15 2016 -0300
+
+    Cleaning some stynax stuff.
+
+[33mcommit 4c35d960982818df038129fe5de76bbbf9ec2817[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Wed May 18 13:35:55 2016 -0300
+
+    Changing the advanced search to work the same as facets, dealing with ingests of PDF through the manage/datastreams and updating the RELS-EXT if the PDF is purged. Also added update RELS-EXT function, if it has not been already updated, on objects that have passed the embargo date upon viewing them.
+
+[33mcommit e60b450246d0739ae66001b7f06138e4a26ff1e3[m
+Merge: 0b490bf d61eb34
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Apr 28 10:51:43 2016 -0300
+
+    Merge pull request #89 from knjackson30974/lib-115
+    
+    Adding the embargo check in full text update.
+
+[33mcommit d61eb3406658c03317be38eb2f6a97670d7db506[m
+Merge: 1383d7a 926c0f9
+Author: Kylea Jackson <knjackson30974@users.noreply.github.com>
+Date:   Thu Apr 28 09:00:57 2016 -0300
+
+    Merge pull request #1 from qadan/lib-115
+    
+    hookification
+
+[33mcommit 926c0f9f4b5bc163ecdbd0a00f0f86fe55c4877b[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Wed Apr 27 16:23:57 2016 -0300
+
+    hookification
+
+[33mcommit 1383d7a11df23d1652dcc22e0ef720ddbe18e6d5[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Apr 26 10:46:16 2016 -0300
+
+    Adding check for the mimtype per comments on the ds modified function.
+
+[33mcommit 0b490bfd3d083446f1fa308d92ca546aeda99213[m
+Merge: 91f55be 2ca3ae6
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Apr 21 14:32:30 2016 -0300
+
+    Merge pull request #88 from knjackson30974/Lib-113
+    
+    Added a check in the pdf link preprocess for the block to see if the …
+
+[33mcommit 2ca3ae60eb1e73cef34b9a444c0d248408c3214a[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 13:46:06 2016 -0300
+
+    Fixing syntax issues part 2
+
+[33mcommit e3107a3c9de30a4504dc7023f19fed1a017e3f77[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 13:41:35 2016 -0300
+
+    Fixing syntax issues.
+
+[33mcommit 9a90cf443cc00e6c66a294030ccb127911731634[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 12:21:40 2016 -0300
+
+    Removing the gmdate() as per comments.
+
+[33mcommit c008c3e4b573ef2ae99027e32719140d175d2a3d[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 12:17:22 2016 -0300
+
+    Update full text if pdf added later or modified.
+
+[33mcommit 9c41114c6cc2cf86f48955734451a6dceb65b511[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 12:14:55 2016 -0300
+
+    Adding the embargo check in full text update.
+
+[33mcommit 7fea4c6a321e41070ac5bee8e0ea9583e32d3270[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 11:24:56 2016 -0300
+
+    Quick change from comment.
+
+[33mcommit 835e1cd08d8c0ebd34ccfbe7cdedba0c651cdb5a[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 10:55:17 2016 -0300
+
+    Reworking the embargo date after checking with Adam.
+
+[33mcommit d087b6b959ab9bfff5dd52883f72650c38d597fd[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Thu Apr 21 10:32:06 2016 -0300
+
+    Reworking to use REQUEST_TIME constant.
+
+[33mcommit 8264c2fc31baea5e1ebea17c1d447b62f09815fd[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Apr 19 17:01:07 2016 -0300
+
+    Added a check in the pdf link preprocess for the block to see if the embargo date is less than or equal to current date.
+
+[33mcommit 91f55bebee60160f41a818d760bb80795624ca5b[m
+Merge: 1085904 3d98096
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Tue Apr 19 15:37:45 2016 -0300
+
+    Merge pull request #87 from jordandukart/7.x-custom-filters
+    
+    Show all filters and custom mappings for advanced search.
+
+[33mcommit 1085904cd0fb60d441bfad4b56d0c1f31230e75c[m
+Merge: bd42865 bf62a69
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Apr 19 11:09:36 2016 -0300
+
+    Merge pull request #85 from knjackson30974/lib-116
+    
+    Removing other conference item
+
+[33mcommit 3d98096fd1b5381374a2f9314a7c8f9b90c60ad0[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Apr 19 10:59:30 2016 -0300
+
+    Though looks like this was unneeded because of settings.
+
+[33mcommit 48082dab1cd850186c17490fe1e71787c5877212[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Apr 19 10:55:47 2016 -0300
+
+    Show all filters and custom mappings for advanced search.
+
+[33mcommit bf62a693a04f6a8e700578f25f04247586b5c2e5[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Apr 19 09:47:42 2016 -0300
+
+    Removing other conference item
+
+[33mcommit bd42865b66def7bedefc8bb836bfbe9aa338f439[m
+Merge: 28ad7ad f2b95ad
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Fri Apr 8 16:15:20 2016 -0300
+
+    Merge pull request #81 from mitchmac/solr-tweaks
+    
+    Misc client feedback
+
+[33mcommit f2b95ad30953c46a1f97cadb5a94242e8b4fa5fb[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Mar 30 15:57:15 2016 -0300
+
+    Revert the author type change
+
+[33mcommit d35ec133f1e80d109c932b78f6dc67f9503bfa6d[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Mar 30 15:08:24 2016 -0300
+
+    Revert to the old Author logic
+
+[33mcommit aaffe320f8b2381a09bb499719591b955311eb48[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Mar 30 13:37:45 2016 -0300
+
+    Use the forms subtypes
+
+[33mcommit a3a2bf3903d1a0e1eb1d8fd52524dedcc515b7e6[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Tue Mar 29 19:57:50 2016 -0300
+
+    No Full Text if no accepted or published versions
+
+[33mcommit 90decc12557c24f95aff9c31da0b7bee04b8f3c1[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Tue Mar 29 17:14:15 2016 -0300
+
+    Catch the full text for all citation ingests like batch
+
+[33mcommit eb28285e891995c532e4d4ce170c5197dbc36f32[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Mon Mar 28 13:42:41 2016 -0300
+
+    Metadata alter issue, could be a problem with islandora_solr_metadata
+
+[33mcommit 6423ff8dfac2ca21bf3d0287d5a170b6b72696e2[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Mon Mar 28 12:49:30 2016 -0300
+
+    Multibyte substring for multibyte chars
+
+[33mcommit 8a82a074fcffa1d618924cc3b4c3b2ab6b286933[m
+Merge: 3326b4e 28ad7ad
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Mar 23 15:46:18 2016 -0300
+
+    Merge pull request #6 from discoverygarden/7.x
+    
+    Merge upstream
+
+[33mcommit 3326b4e5695e5ca23d9644277d58bbcff4e28def[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Mar 23 15:38:41 2016 -0300
+
+    Client is using PHP 5.3.3 - parameter isn't valid there
+
+[33mcommit 28ad7adfdf99c241c2751f6bb2c95dff4993cc76[m
+Merge: 214263f 52c451d
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Tue Mar 22 11:28:08 2016 -0300
+
+    Merge pull request #82 from knjackson30974/lib-109
+    
+    Adjusting peer review search query to match use of capitals.
+
+[33mcommit 52c451d1fb26fa232f9a4032fae8154e1310a13d[m
+Author: knjackson30974 <kylea.jackson4@gmail.com>
+Date:   Tue Mar 22 09:19:09 2016 -0300
+
+    Adjusting peer review search query to match use of capitals.
+
+[33mcommit afaa69d989a9b1fa405ffac0bc17eafa78244902[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Mon Mar 21 18:14:39 2016 -0300
+
+    Bad copy/paste is bad
+
+[33mcommit 757a11c2f5c0f56a6dca6a79f2f04d4b811637bf[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Mar 18 14:34:05 2016 -0300
+
+    Go back to just real "authors"
+
+[33mcommit e0ee5edb9f86b1634ee9ea6ec74413913fbc9ea5[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Mar 18 11:37:31 2016 -0300
+
+    Override formatFilter to display the year ranges more accurately
+
+[33mcommit 686e2503d49d57de19722bc663453b6b2aefdd59[m
+Merge: aa84891 7ec83eb
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Mar 18 11:22:21 2016 -0300
+
+    Merge pull request #4 from mitchmac/more-feedback
+    
+    Merge all with feature branch
+
+[33mcommit 7ec83eb14c796d50ad5ceffcfba60fd5acdace7e[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Mar 18 11:19:49 2016 -0300
+
+    Update advanced_search.inc
+
+[33mcommit cfccac9cd9b403a0724b7263566e51e8b8075934[m
+Merge: d988e08 214263f
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Mar 18 11:19:14 2016 -0300
+
+    Merge pull request #3 from discoverygarden/7.x
+    
+    Merge upstream
+
+[33mcommit aa848913b142711ce9e34aa40b6f6c090691478f[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Thu Mar 17 15:41:04 2016 -0300
+
+    Just use fgs_label_s for objects without a citation
+
+[33mcommit 214263f9d6c6c34e35a0753b2ad4770bacbe6f38[m
+Merge: edd9ebc 15a541a
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Fri Feb 19 14:24:17 2016 -0400
+
+    Merge pull request #79 from mitchmac/separate-genre-mappings
+    
+    Separate the display/form genre mappings
+
+[33mcommit 15a541ac27ca0b87a019dc99740243e79b0f0027[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Fri Feb 19 12:29:53 2016 -0400
+
+    Coder cleanup
+
+[33mcommit edd9ebce76e670ee02e380d17c68ca61d2b61f5e[m
+Merge: 1bd805d 1d16426
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Fri Feb 19 11:44:21 2016 -0400
+
+    Merge pull request #80 from mitchmac/solr-query
+    
+    Anonymous user was getting function not found
+
+[33mcommit 1bd805dd91f70e2bb26f53430900d66322a0eddb[m
+Merge: d988e08 9e8fbc3
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Fri Feb 19 11:36:04 2016 -0400
+
+    Merge pull request #78 from mitchmac/author-changes
+    
+    Handle different "author" types
+
+[33mcommit 1d1642658ec2ee2b537ac00a4d9666b3a7a45a31[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Thu Feb 18 20:08:23 2016 -0400
+
+    Anonymous user was getting function not found
+
+[33mcommit 99104a396276522fedd846bd8aa0af9c30376f36[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Thu Feb 18 17:30:35 2016 -0400
+
+    Separate the display/form genre mappings
+
+[33mcommit 9e8fbc3a5dabd6dfb21e6b9306d7770bcf8a8661[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Feb 17 16:11:25 2016 -0400
+
+    Update the default author pid solr variable
+
+[33mcommit 46273a945bb69aecf8252cde3f16d82e9f81c12a[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Feb 17 16:01:44 2016 -0400
+
+    More generic author entity linking
+
+[33mcommit 3b88e1665c960eb23890a292045dc2d2b57751bc[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Feb 17 15:50:34 2016 -0400
+
+    Clean up code style
+
+[33mcommit dcd120c556825a6d36f9a5741aaed8405dc0f8d1[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Feb 17 15:49:29 2016 -0400
+
+    Changes to the author list
+
+[33mcommit c5539df9d044187acb82a92e17b88be1926539cb[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Feb 17 15:48:07 2016 -0400
+
+    Have all author types on the top of the page
+
+[33mcommit 7523acab535385b9e55fc9e9df3fd72e68068401[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Tue Feb 16 19:34:12 2016 -0400
+
+    Update xpath to keep @type
+
+[33mcommit c547d82b4cd2f60d7501f8d3addb7b1d607c115a[m
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Tue Feb 16 19:32:10 2016 -0400
+
+    Catch all personal name roles when seeking author info
+
+[33mcommit d988e084336944ab2e7660ae6eaf338bb557e8c7[m
+Merge: 5becd3d 5d8c068
+Author: William Panting <willtp87@hotmail.com>
+Date:   Tue Feb 9 14:27:50 2016 -0400
+
+    Merge pull request #76 from jordandukart/7.x-facet-link
+    
+    Make author display use facet, minor bug fix and var getting.
+
+[33mcommit 5becd3d1801481572a484107304de69422c9aabb[m
+Merge: d37f908 f749896
+Author: William Panting <willtp87@hotmail.com>
+Date:   Tue Feb 9 14:27:46 2016 -0400
+
+    Merge pull request #77 from jordandukart/7.x-subtypes
+    
+    Add the three new subtypes and match them to their form.
+
+[33mcommit f749896e49684f80322c8ca6bc2ec7f979f8228a[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 9 14:06:45 2016 -0400
+
+    More subtypes.
+
+[33mcommit 5d8c06849554a28f1814eefc9ed2a93a1811e777[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 9 13:56:43 2016 -0400
+
+    Bad bracing.
+
+[33mcommit b359972235a5e14ac99bfa1769a902f97785d62c[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 9 08:10:58 2016 -0400
+
+    Add the three new subtypes and match them to their form.
+
+[33mcommit fb23ad27928114ca689de64041a6e8c8a824ce65[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 9 07:51:21 2016 -0400
+
+    Make author display use facet, minor bug fix and var getting.
+
+[33mcommit d37f9086351e229a4b4d7906392c2fd080a840fb[m
+Merge: d233a7a e9e02ef
+Author: William Panting <willtp87@hotmail.com>
+Date:   Fri Feb 5 10:27:52 2016 -0400
+
+    Merge pull request #75 from jordandukart/7.x-date-rendering-and-warning
+    
+    Fix a UI date rendering problem
+
+[33mcommit e9e02ef042e6df9d2ad3ffaed29432f585f49706[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Fri Feb 5 10:14:09 2016 -0400
+
+    Don't handle the warning.
+
+[33mcommit fd983230ed71d429757ed6e4761d884cbf4bbc2d[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Fri Feb 5 09:47:14 2016 -0400
+
+    Fix a UI date rendering problem, handle a potential warning.
+
+[33mcommit d233a7a755f06fe5e2540567f2d81e86da8b380c[m
+Merge: 72ccb20 ec31a98
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Wed Feb 3 15:49:25 2016 -0400
+
+    Merge pull request #74 from jordandukart/7.x-citation-display
+    
+    Citation display changes.
+
+[33mcommit ec31a9812fe84772cfa5287cd64a18b2eadd6d98[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Feb 3 14:09:17 2016 -0400
+
+    Citation display changes.
+
+[33mcommit 72ccb2008fa5d8ca8a970fb3f3382e6f9259f53c[m
+Merge: d86b030 cec56a9
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Wed Feb 3 10:58:25 2016 -0400
+
+    Merge pull request #72 from jordandukart/7.x-advanced-search-tweaks
+    
+    Tweaks for advanced searching/some form validation/bug fix.
+
+[33mcommit d86b030bf690456228c8f50183d163fe3806f864[m
+Merge: f5853e0 07ab3fb
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Tue Feb 2 14:17:27 2016 -0400
+
+    Merge pull request #73 from jordandukart/7.x-embargo-ip
+    
+    Check the IP address to satisfy embargo behavior.
+
+[33mcommit 07ab3fb431c8cd46d42944434a548efde6e1c0bb[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 2 12:00:33 2016 -0400
+
+    Check the IP address to satisfy embargo behavior.
+
+[33mcommit cec56a9bc3b709dce969e4b228aa4689dc4cecc6[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 2 10:38:24 2016 -0400
+
+    Add to uninstall.
+
+[33mcommit 095146c94f1b9a5df369e7af57365176638865de[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Feb 2 10:27:59 2016 -0400
+
+    Tweaks for advanced searching/some form validation/bug fix.
+
+[33mcommit f5853e0b9b86643d994f8ecc1cffbc958b5ac30a[m
+Merge: ee8adbc 358abab
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Tue Jan 26 15:03:58 2016 -0400
+
+    Merge pull request #71 from jordandukart/7.x-trim
+    
+    Trim what we are exploding.
+
+[33mcommit 358ababc742c19ddc2edf5a681cdfddebd1036ce[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Jan 26 15:00:40 2016 -0400
+
+    Trim what we are exploding.
+
+[33mcommit ee8adbc980d1ec2b945d53e679723921ed7724aa[m
+Merge: 0fe1ea7 2bd6cf0
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Jan 26 13:29:17 2016 -0400
+
+    Merge pull request #70 from MorganDawe/7.x-general-tweeks
+    
+    Getting dyslexic, updated block name.
+
+[33mcommit 2bd6cf0f85c72da54f40450cbb88767b5d766f79[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Tue Jan 26 13:27:34 2016 -0400
+
+    Getting dyslexic, updated block name.
+
+[33mcommit 0fe1ea7d64ce2af3e554bc9eb0cf40af916eda49[m
+Merge: c123a22 7457c8b
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Mon Jan 25 15:27:14 2016 -0400
+
+    Merge pull request #69 from MorganDawe/7.x-general-tweeks
+    
+    Renamed block as requested by client.
+
+[33mcommit 7457c8b7f91ec830c6cec46fa98ec42239056a51[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Mon Jan 25 13:42:06 2016 -0400
+
+    Renamed block as requested by client.
+
+[33mcommit c123a222a62818d7e4816f323ca1c128d6fc8c0d[m
+Merge: bfd8a17 c9fe68b
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Tue Jan 5 16:26:41 2016 -0400
+
+    Merge pull request #68 from qadan/7.x-LIB-81
+    
+    check for user_data
+
+[33mcommit c9fe68bcebcd48f185cca2bc5d16b706377abe86[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Jan 5 16:21:11 2016 -0400
+
+    check for user_data
+
+[33mcommit bfd8a1726e7fc269dde8d02558336baf334962e2[m
+Merge: ec97493 efcdae8
+Author: William Panting <willtp87@hotmail.com>
+Date:   Tue Jan 5 15:35:26 2016 -0400
+
+    Merge pull request #67 from qadan/7.x-LIB-81
+    
+    multivalued solr field
+
+[33mcommit efcdae8be3a841f138ddaf014f3d80cb7a428cd9[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Jan 4 16:47:15 2016 -0400
+
+    multivalued solr field
+
+[33mcommit ec974936096889f1019466e5a663317e9453ae15[m
+Merge: 5beb5f1 320c208
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Wed Dec 23 16:41:40 2015 -0400
+
+    Merge pull request #65 from MorganDawe/7.x-early-feedback
+    
+    Added a div wrapper for styling purposes.
+
+[33mcommit 320c2083ccbd6569d018fa52d983ca6b1fd8b96d[m
+Merge: e191a2e fc411b4
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Wed Dec 23 16:36:46 2015 -0400
+
+    Merge pull request #2 from adam-vessey/7.x-citation-markup
+    
+    Wrap the citation markup so the AJAX CSL stuff doesn't wipe the label.
+
+[33mcommit fc411b4c26b729257d2baef4613601d909b8fea9[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Wed Dec 23 16:35:15 2015 -0400
+
+    Wrap the citation markup so the AJAX CSL stuff doesn't wipe the label.
+
+[33mcommit 5beb5f12dc3191c040882754a3ae9f6f5ca8b370[m
+Merge: bb9ad6e e76e8cf
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Wed Dec 23 14:20:20 2015 -0400
+
+    Merge pull request #64 from willtp87/7.x-full_text
+    
+    7.x full text
+
+[33mcommit e76e8cf5eb938a44962e710fd9da2aa95b83a6b6[m
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Wed Dec 23 14:19:20 2015 -0400
+
+    Less empty strings returning.
+
+[33mcommit 26ac85c8959796db568269cde267c84408878bed[m
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Wed Dec 23 11:14:46 2015 -0400
+
+    Keeping the filter list in sync.
+
+[33mcommit bb9ad6e8e5812c22eaafd8bb1cef78a850155342[m
+Merge: b1c7075 f860d3d
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Tue Dec 22 15:00:47 2015 -0400
+
+    Merge pull request #62 from adam-vessey/7.x-LIB-89
+    
+    Form selection architecture.
+
+[33mcommit 089c8aaeee127b576a76289d63653ef24a84b652[m
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Tue Dec 22 13:28:24 2015 -0400
+
+    Some cleanup
+
+[33mcommit d2cc0c89354f958f92b632692accb26ed253217d[m
+Merge: b1c7075 f585059
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Tue Dec 22 12:27:24 2015 -0400
+
+    fixing conflict
+
+[33mcommit b1c7075fc7988373b2b3ebe53923867641827840[m
+Merge: ba15b7c 6b62a54
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Tue Dec 22 11:39:13 2015 -0400
+
+    Merge pull request #66 from qadan/7.x-LIB-95
+    
+    remove bibliography from bookmark export list
+
+[33mcommit 6b62a54e69dee060a796db1b2b5edb414a0ad048[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Dec 22 10:55:02 2015 -0400
+
+    remove bibliography from bookmark export list
+
+[33mcommit e191a2edc0e38e5eb28491099f51b05397601fa8[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Tue Dec 22 10:35:30 2015 -0400
+
+    Added a div wrapper for styling purposes.
+
+[33mcommit f860d3d7639b7dd41209479222e639d940a6e2a2[m
+Merge: 8e649b3 ba15b7c
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Dec 22 09:38:57 2015 -0400
+
+    Merge remote-tracking branch 'origin/7.x' into 7.x-LIB-89
+    
+    Conflicts:
+    	includes/utilities.inc
+
+[33mcommit ba15b7cb6dc021263904577dbd4919697f8a6da3[m
+Merge: ab11af6 0594bd5
+Author: William Panting <willtp87@hotmail.com>
+Date:   Tue Dec 22 08:44:30 2015 -0400
+
+    Merge pull request #63 from qadan/7.x-LIB-94
+    
+    targeting new tabs
+
+[33mcommit f585059e9f39fe0532e69f1b8f1e7b038223cf81[m
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Tue Dec 22 08:27:58 2015 -0400
+
+    Re-writing author PIDs to names in facet blockw.
+
+[33mcommit ab11af692c27ee8888404ab744a691e0751e0ca2[m
+Merge: 475a916 fb86710
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 17:02:12 2015 -0400
+
+    Merge pull request #61 from daniel-dgi/LIB-88
+    
+    Lib 88
+
+[33mcommit 0594bd5766b8ee9eeb534f2aee6df89c63711579[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Dec 21 16:59:14 2015 -0400
+
+    targeting new tabs
+
+[33mcommit fb86710c25709647f8b34d45a42ef8f4f2f5e1c0[m
+Merge: 6608ae4 1d61bd2
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Mon Dec 21 16:52:10 2015 -0400
+
+    Merge pull request #3 from adam-vessey/7.x-search
+    
+    Fix variable.
+
+[33mcommit 1d61bd223ad6dcc04d8c21a2003b84231bb236f9[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 16:47:35 2015 -0400
+
+    Fix variable.
+    
+    Oops.
+
+[33mcommit 6608ae4d244a36ec149f57c8eff1e0e244983118[m
+Merge: 3a85a76 1adf386
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Mon Dec 21 16:34:19 2015 -0400
+
+    Merge pull request #2 from adam-vessey/7.x-search
+    
+    Advanced search form fixes.
+
+[33mcommit 8e649b35d4b3065f6c84ac1396c78815f883c987[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 15:58:26 2015 -0400
+
+    Somewhat more concise in the ingest form selection.
+
+[33mcommit df8f0535103871e83441764a56eadc4114bd3cca[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 15:55:07 2015 -0400
+
+    Coding standards.
+
+[33mcommit eeb335a3d72ef2157bc29a1bc453139f60262438[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 15:54:20 2015 -0400
+
+    Fix selection of edit form.
+
+[33mcommit 13a0dca71b1606c1df1cd6be7794f51f84a214a1[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 15:39:14 2015 -0400
+
+    Fix Solr metadata picking up its display.
+
+[33mcommit b7560e8ac1c3d0be65f98daecea7daea0225fff2[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 15:00:57 2015 -0400
+
+    Reflect used defaults in the admin form.
+
+[33mcommit 518f91bc3d60f8ae901f4b6194e15d838656ee83[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 14:51:19 2015 -0400
+
+    Add autocomplete indicator config to form elements.
+
+[33mcommit 98db47478d04f6e15617ded16238cae21760c0c3[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 14:49:48 2015 -0400
+
+    Fix xpath for genre.
+    
+    Was too precise.
+
+[33mcommit d6551f5e5947b0d05ccdaaff21b5b5117566d32d[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 13:59:33 2015 -0400
+
+    Add forms as-is from LIB-73.
+
+[33mcommit f05a990804b213d4725e4190674145dade7e6a27[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 13:34:18 2015 -0400
+
+    Test forms.
+
+[33mcommit a86d13ce9f5b985a08593afe5f8e58702d39512e[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Fri Dec 18 16:53:57 2015 -0400
+
+    Coding standards on the citation subtype stuffs.
+
+[33mcommit 58533c62b8a005055a4ddcc1c441ef58e66b184e[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 10:53:33 2015 -0400
+
+    Add new variable to be removed on uninstall...
+    
+    ... Also, the solr metadata mapping one which was missed.
+
+[33mcommit bd361490f5d752a09389f311556007b98ca5b33e[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Fri Dec 18 16:27:36 2015 -0400
+
+    Intermediate commit... Just need to get it to scrap viable forms.
+    
+    Conflicts:
+    
+    	includes/utilities.inc
+
+[33mcommit 1adf38644332336bf026633de42b505f406cd3aa[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 12:49:12 2015 -0400
+
+    Revert "Avoid adding publication type filter without genres."
+    
+    This reverts commit 69561394beb16a75743274eb176a6dbb3eae116f.
+    
+    Ends up checking twice...
+
+[33mcommit 297ee0753c6141176d50eced6fdef2e19e0880ed[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 12:05:13 2015 -0400
+
+    Fix hard-coded genre field.
+
+[33mcommit 5c54b68715558d515a86247469285bf9a2eb74fe[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 12:04:07 2015 -0400
+
+    Reintroduce wrappers (with IDs), with a comment.
+
+[33mcommit fc64c552acfd878a52188c866e24081abf75fdf4[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 11:32:34 2015 -0400
+
+    Revert "Use our defined "Publicaton Types" for the advanced search."
+    
+    This reverts commit 714b675a19f2f12aef150139c643215e640f46f5.
+    
+    (You know what you do when you assume)
+
+[33mcommit b8e6ed4d917d730c30c6e389e4d1307cbbaac3ae[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 11:09:12 2015 -0400
+
+    Coding standards...
+
+[33mcommit 13c80e2e1a56295b0614706088a0d8281b00fc1b[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 11:06:00 2015 -0400
+
+    Adjust Solr facet query settings.
+    
+    Also, compare strings directly.
+
+[33mcommit 5d8f7e3e478d2343f8a09507f1b105ee0620b2a8[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 10:56:23 2015 -0400
+
+    Avoid adding publication type filter without genres.
+
+[33mcommit 9ba3f10cdc7687e0b0d977e33bb8bef2feb29e82[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Mon Dec 21 10:44:56 2015 -0400
+
+    Use our defined "Publicaton Types" for the advanced search.
+
+[33mcommit 13040ee8f438b1a602f3f48b1d79c684a2e38cb2[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Fri Dec 18 13:32:13 2015 -0400
+
+    Avoid redundant IDs and inline markup.
+
+[33mcommit 876b1013bac781ff3562a8ca8852ce4cc0498cdf[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Fri Dec 18 13:29:42 2015 -0400
+
+    More concise filter addition.
+
+[33mcommit c5f64a20fa61b8ae1ea74c8411d7b9c5bbff9db4[m
+Author: willtp87 <willtp87@hotmail.com>
+Date:   Mon Dec 21 10:53:19 2015 -0400
+
+    Object text state now preserved in REL.
+
+[33mcommit 3a85a76f9b81402eb768d1cb69b115e0f95acadd[m
+Merge: fd3a6cb 475a916
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Thu Dec 17 14:53:21 2015 -0400
+
+    Merging from upstream
+
+[33mcommit fd3a6cb2e0c8b84548d155203233705220300b75[m
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Thu Dec 17 14:26:47 2015 -0400
+
+    Completed submit handler.  Passes coder.
+
+[33mcommit 475a91656fd33c7a8bd07201ba676c843720cdf5[m
+Merge: 28cb38d ef9205d
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Dec 17 13:04:21 2015 -0400
+
+    Merge pull request #58 from qadan/7.x-LIB-70
+    
+    requested fixes
+
+[33mcommit ef9205d272ba99ed95c755694a6b0b072d62b87f[m
+Merge: 625371b 00de162
+Author: Daniel Aitken <daitken@discoverygarden.ca>
+Date:   Thu Dec 17 13:02:14 2015 -0400
+
+    Merge pull request #1 from adam-vessey/7.x-LIB-70
+    
+    Rework how the organization query is constructed.
+
+[33mcommit 28cb38d062604693b30c3ce0761e3c62dac10a1e[m
+Merge: afc6861 3ebe68e
+Author: William Panting <willtp87@hotmail.com>
+Date:   Thu Dec 17 12:59:41 2015 -0400
+
+    Merge pull request #60 from MorganDawe/7.x-early-feedback
+    
+    added prefix entrys for select content models.
+
+[33mcommit 00de162e7a231e3e0f2648bafae90a24664b086a[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Thu Dec 17 12:58:44 2015 -0400
+
+    Rework how the organization query is constructed.
+    
+    Also, bit of cleanup.
+
+[33mcommit 3ebe68e9517cf56592bf4cabd8bd9384b3474daf[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 17 12:57:09 2015 -0400
+
+    actually saved, and pushing commit.
+
+[33mcommit db657f6b3ff1e8bcb9cd77eb80700aa2e0f7a739[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 17 12:08:50 2015 -0400
+
+    added prefix entrys for select content models.
+
+[33mcommit afc6861fb99ddadc4c51d4b75ee7397968233ef6[m
+Merge: 58c3806 22eebdb
+Author: William Panting <willtp87@hotmail.com>
+Date:   Thu Dec 17 11:15:53 2015 -0400
+
+    Merge pull request #59 from jordandukart/7.x-push-it-to-the-limit
+    
+    Up to 10.
+
+[33mcommit 22eebdb679f836cc3a6fd0ad629c8a0110b64bff[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 17 10:44:15 2015 -0400
+
+    Up to 10.
+
+[33mcommit 625371b401df1d567106e49572ffda9bc037e5a7[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Thu Dec 17 10:29:44 2015 -0400
+
+    requested fixes
+
+[33mcommit 58c3806238aa64eaa588c2f2656597eccd9269e1[m
+Merge: 9447eea 140184a
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 16 11:18:07 2015 -0400
+
+    Merge pull request #57 from MorganDawe/7.x-early-feedback
+    
+    7.x early feedback
+
+[33mcommit 140184adf064a95c674155eeb4e4a83c53d5cfd8[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Wed Dec 16 10:51:43 2015 -0400
+
+    Removed module_load_indclude.
+
+[33mcommit c480f2799c30c423fc5f473ef4dd89145ce8af62[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Wed Dec 16 09:35:43 2015 -0400
+
+    Updated citation access callback.
+
+[33mcommit b155326bf5a2d055d67e5865611b17648f47be8d[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Wed Dec 16 09:33:48 2015 -0400
+
+    Updated menu_alter with romeo access called with module_load_include().
+
+[33mcommit 9447eeabc0afb6759fa7c66838579c7998f4a4ac[m
+Merge: b50a112 b365412
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 16 09:19:51 2015 -0400
+
+    Merge pull request #53 from adam-vessey/7.x-LIB-86
+    
+    Context-based Solr metadata displays.
+
+[33mcommit 8cb8e610703c33f5c4bff71fe3216a282833d5cd[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Tue Dec 15 17:06:08 2015 -0400
+
+    Added access callback for romeo tab.
+
+[33mcommit 2821fe2a55572cd0b0bf5fbab3df08dc4c144bb1[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Tue Dec 15 16:38:12 2015 -0400
+
+    Coder cleanup.
+
+[33mcommit b3654121fd3fe0da7cb392b7a55b09df56c9d74b[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Dec 15 11:03:02 2015 -0400
+
+    Add the pseudo-field name to the README...
+
+[33mcommit 2d31550c6a6e644b6a7c0d5cdf2712631745ac00[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Mon Dec 14 14:00:49 2015 -0400
+
+    Added human readable facet labels to query block, now 'Islandora Query with Facet Title'.
+
+[33mcommit e0070a47a3ed647bcb4ea6223adeb7d71d0014a4[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Thu Dec 10 16:42:27 2015 -0400
+
+    Produce concatenations for names without "fullname" elements.
+
+[33mcommit 590fa9e543334cc49d95fc9524a2ae86b8691324[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Thu Dec 10 16:35:12 2015 -0400
+
+    Better rendering without links.
+
+[33mcommit 5945ce2a7a66dc3d91d84e2916c9704c9c65a58b[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 10 16:22:14 2015 -0400
+
+    Updated function documentation.
+
+[33mcommit c3de17fef31df4ad2c97dc274b45c3ddb827d778[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 10 16:16:22 2015 -0400
+
+    Some initial client requests.
+
+[33mcommit b50a11262756ab35bf19e645548a6b33bc894fc2[m
+Merge: 8b2eb4b 25497ed
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Thu Dec 10 14:37:50 2015 -0400
+
+    Merge pull request #56 from jordandukart/7.x
+    
+    Only render authors when there are authors.
+
+[33mcommit 25497ede3ba33986047ae87dc9f3348a2abd7de4[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 10 14:36:24 2015 -0400
+
+    Initialize array.
+
+[33mcommit 57d36765912b8a9b4f36de9be255b6304f901717[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 10 14:35:28 2015 -0400
+
+    Refinement.
+
+[33mcommit b5fb0f2f8a5800be7222cd22c663956511d8df73[m
+Merge: 9c9726b 8b2eb4b
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 10 13:15:20 2015 -0400
+
+    Fixed merge conflict in comment.
+
+[33mcommit 5c4d39f63489633d4e9a9af292a5396dbe0119d3[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 10 10:49:01 2015 -0400
+
+    Only render authors when there are authors.
+
+[33mcommit 8b2eb4b45388efec0c15a0d4218f9e5b85a943a3[m
+Merge: 4b466ea dbff22a
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Dec 10 10:44:11 2015 -0400
+
+    Merge pull request #55 from jordandukart/7.x
+    
+    Add default value.
+
+[33mcommit dbff22abda94e5715b15d4a30e7424c242f39c34[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 10 10:43:16 2015 -0400
+
+    Fine @avessey.
+
+[33mcommit 8a6163f768c78be923f26b0acc256e7efbb9781d[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Dec 10 10:41:45 2015 -0400
+
+    Add default value.
+
+[33mcommit 4b466ea7f2980fa6aa048a0a92cb82bb517bdaac[m
+Merge: 2686ebf 23e9f6f
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Wed Dec 9 16:40:10 2015 -0400
+
+    Merge pull request #54 from jordandukart/7.x
+    
+    Add PID to the fl as required.
+
+[33mcommit 23e9f6f4777f26387ac00a6564d00a018291a0b4[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 9 16:39:17 2015 -0400
+
+    Add PID to the fl as required.
+
+[33mcommit c3bcef739c14a2add123d7e26f667b6afcfec0d6[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Dec 8 18:05:43 2015 -0400
+
+    Expand docs a bit, and add dependency.
+
+[33mcommit 16636888de2107083bc05d114ce13830290f2425[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Dec 8 16:19:22 2015 -0400
+
+    Coding standards.
+
+[33mcommit 84c91cc27802a520f37779b20545ae61da4b1f27[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Tue Dec 8 16:13:18 2015 -0400
+
+    Altered metadata displays.
+
+[33mcommit c6fbc2a4513abb236f747804e7f5b24aa6bc6613[m
+Merge: c03ab90 2686ebf
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Tue Dec 8 16:07:58 2015 -0400
+
+    Merge branch '7.x' of https://github.com/discoverygarden/lib4ridora into jordandukart-7.x-citation-info
+
+[33mcommit c03ab90d2cc6fb3852d0539633c47bf8f9ed633c[m
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Tue Dec 8 16:07:40 2015 -0400
+
+    Built out the form for LIB-88, need to implement the submit handler.
+
+[33mcommit 2686ebf29b701afd8a85e595348dafb8e2219520[m
+Merge: 84c807b 57e7e71
+Author: Mitch MacKenzie <mitchmac@gmail.com>
+Date:   Mon Dec 7 11:23:34 2015 -0400
+
+    Merge pull request #52 from jordandukart/7.x
+    
+    Empty check.
+
+[33mcommit 57e7e71768ad4d0dcbf86d01f805ba6b57e547ba[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Mon Dec 7 11:22:24 2015 -0400
+
+    Empty check.
+
+[33mcommit 84c807b08b41c89551963874f73076c3672816b5[m
+Merge: 1f10d31 b45308e
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Mon Dec 7 11:18:57 2015 -0400
+
+    Merge pull request #50 from MorganDawe/7.x-displayprofile
+    
+    Added display profile.
+
+[33mcommit b45308ef97c5255dc539b714d61f1129f65008fb[m
+Merge: 2a932b4 b9db76c
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Mon Dec 7 11:09:16 2015 -0400
+
+    Merge pull request #1 from jordandukart/7.x-displayprofile
+    
+    Update coding.
+
+[33mcommit b9db76c3fa602f854f33d0b329be19600a33feeb[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Mon Dec 7 11:07:54 2015 -0400
+
+    Update coding.
+
+[33mcommit 9c9726bb0d28e293a08a0d0343969a7ec5a7ba20[m
+Merge: 588c6ef 1f10d31
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Fri Dec 4 15:02:42 2015 -0400
+
+    Merge branch '7.x' of https://github.com/discoverygarden/lib4ridora into 7.x
+
+[33mcommit 1f10d31f42b0adce03d21aaa02dfc28df7e7cb68[m
+Merge: d09abc6 e148d2f
+Author: William Panting <willtp87@hotmail.com>
+Date:   Thu Dec 3 16:31:15 2015 -0400
+
+    Merge pull request #51 from MorganDawe/7.x-fulltext-block
+    
+    7.x fulltext block
+
+[33mcommit e148d2ff808b927e0e085ded0a2a02367117733f[m
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Thu Dec 3 16:30:50 2015 -0400
+
+    Forgot a space...
+
+[33mcommit d09abc6cd4cb7c3c86b5a9df9c247c241b2f69fa[m
+Merge: c1a4e90 ffb806c
+Author: William Panting <willtp87@hotmail.com>
+Date:   Thu Dec 3 16:27:26 2015 -0400
+
+    Merge pull request #47 from jordandukart/7.x-fulltext-block
+    
+    Add Fulltext block and add a custom menu denied page.
+
+[33mcommit 2a932b4b2846baaff939351de36589a75e404a15[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 3 15:45:03 2015 -0400
+
+    Added display profile.
+
+[33mcommit 1363b5d69fe908e6073f7ed50c627d0df17af30b[m
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Thu Dec 3 14:55:22 2015 -0400
+
+    Update lib4ridora-pdf-link.tpl.php
+
+[33mcommit 51aab2332451755e2b06f02d158e4c53a9deaf45[m
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Thu Dec 3 14:55:06 2015 -0400
+
+    Update theme.inc
+
+[33mcommit bc8da9bb0873136717c36b2bd4a0de126c33bcff[m
+Author: Morgan Dawe <morgandawe@hotmail.com>
+Date:   Thu Dec 3 14:14:21 2015 -0400
+
+    Update theme.inc
+
+[33mcommit 588c6ef67379d39f937c45c306e5dc7402b15c66[m
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Dec 3 13:42:00 2015 -0400
+
+    Added Lib4ri Bookmark display profile
+
+[33mcommit c1a4e909176fedb85c0c38d5bf573a9b8580e7f8[m
+Merge: 4b6ea97 a85997f
+Author: Daniel Lamb <daniel@discoverygarden.ca>
+Date:   Thu Dec 3 10:25:40 2015 -0400
+
+    Merge pull request #48 from jordandukart/7.x-citation-info
+    
+    Modify citation view for Lib4RI.
+
+[33mcommit 02d95e6fffbae314dd9c29958b5d93f6c93d2b38[m
+Merge: 41091be a85997f
+Author: vagrant <vagrant@danny-vagrant-lib4ri.52050.lib4ri.dgicloud.com>
+Date:   Thu Dec 3 10:16:44 2015 -0400
+
+    Merge branch '7.x-citation-info' of https://github.com/jordandukart/lib4ridora into jordandukart-7.x-citation-info
+
+[33mcommit 4b6ea9703e57190ec73ec1df75f426cc76e9b80b[m
+Merge: e707ba1 fc4a6f3
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 2 15:23:14 2015 -0400
+
+    Merge pull request #46 from matthewperry/7.x-citation-ingest-doi
+    
+    7.x citation ingest doi
+
+[33mcommit a85997f05882ee30e3cca0fa501401657c9d5c23[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 2 14:22:01 2015 -0400
+
+    Changes to match XPath better and render authors.
+
+[33mcommit c0197a05dde6c5fe60cc5c5585a138f962696919[m
+Merge: ed1fb26 ffb806c
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Wed Dec 2 13:50:27 2015 -0400
+
+    Merge branch '7.x-fulltext-block' of https://github.com/jordandukart/lib4ridora into 7.x
+
+[33mcommit ffb806cc2ab5298e64c42d927bb7a493beb82e09[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 2 13:37:26 2015 -0400
+
+    Access denied.
+
+[33mcommit b1c5ba587d1e467e35b50d7cba6a21880ab3430c[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Dec 2 13:25:01 2015 -0400
+
+    Add more re-usable PDF icons.
+
+[33mcommit e707ba15dce1c9561019a4c0b74efa3f94c18685[m
+Merge: d5c2219 0a4e3e1
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Mon Nov 30 11:05:03 2015 -0400
+
+    Merge pull request #49 from jordandukart/7.x-related-research-data
+    
+    Update to not render empty elements.
+
+[33mcommit 41091bedd6aae34f3cc5fedca209ff43376f2972[m
+Merge: d5c2219 ba4a55b
+Author: vagrant <vagrant@danny-vagrant-lib4ri.2867.lib4ri.dgicloud.com>
+Date:   Fri Nov 27 14:56:14 2015 -0400
+
+    Merge branch '7.x-citation-info' of https://github.com/jordandukart/lib4ridora into jordandukart-7.x-citation-info
+
+[33mcommit 0a4e3e1e5603d8e39b11b28128da6d4c247e1a18[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 16:59:06 2015 -0400
+
+    Update to not render empty elements.
+
+[33mcommit f6753170c8cbdb941b8694bfcae0b89c5a228887[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 15:09:18 2015 -0400
+
+    Lots of code review clean up.
+
+[33mcommit ed1fb268ec767c0bfbc46cc1b1acc602b7fa81d6[m
+Merge: 065ba25 ba4a55b
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Thu Nov 26 15:04:38 2015 -0400
+
+    Merge branch '7.x-citation-info' of https://github.com/jordandukart/lib4ridora into 7.x
+
+[33mcommit fc4a6f3d7a20de5653727ce369dff5a6698531b7[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Thu Nov 26 14:56:49 2015 -0400
+
+    Updates.
+
+[33mcommit ba4a55b8a4897b1ab084266ebc04c43aa90eda2c[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 14:23:18 2015 -0400
+
+    Add include.
+
+[33mcommit a92970ecbcd8ef3c71601a8b7ceaaa0c0ea62466[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 14:21:31 2015 -0400
+
+    Modify citation view for Lib4RI.
+
+[33mcommit 393c6933f06d0edaa907d48489e060bfa219d4ad[m
+Merge: 0d0cc00 d5c2219
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 10:21:38 2015 -0400
+
+    Merge branch '7.x' of github.com:discoverygarden/lib4ridora into 7.x-fulltext-block
+    
+    Conflicts:
+    	includes/block.inc
+    	lib4ridora.module
+
+[33mcommit d5c2219ad12a29288c7a88a670f0466c0a8bdfa1[m
+Merge: a00789e e66282a
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Thu Nov 26 10:16:50 2015 -0400
+
+    Merge pull request #45 from jordandukart/7.x-related-research-data
+    
+    Add related research data block.
+
+[33mcommit e66282a9267c19890a7d2f706116f744057c5c3f[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Thu Nov 26 10:11:45 2015 -0400
+
+    Safer XPath.
+
+[33mcommit 9c9cf800af4f56988b30e95e3fc1e127fafa0ebc[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Nov 25 17:44:05 2015 -0400
+
+    Code review cleanup.
+
+[33mcommit 0d0cc003008cd43484ce54b59baec1f20e54b62f[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Wed Nov 25 17:31:23 2015 -0400
+
+    Add Fulltext block and add a custom menu denied page.
+
+[33mcommit ae1445f1d82b0bc946f42c5c3cc167024e9fff61[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Wed Nov 25 16:17:38 2015 -0400
+
+    Updating examples of DOI populator.
+
+[33mcommit abcc8058b7c0dce339da9b08031c30c576ff492d[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Wed Nov 25 16:16:31 2015 -0400
+
+    Changes to DOI import including moving code to islandora_doi module.
+
+[33mcommit a00789e8560db71705e826132865af72480ee6c5[m
+Merge: c03cc04 4592829
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Wed Nov 25 16:03:40 2015 -0400
+
+    Merge pull request #44 from jordandukart/7.x-publication-link-view
+    
+    Add publication link view.
+
+[33mcommit 065ba25880b48f5433d046e157d2b4439c2ecec8[m
+Merge: c03cc04 4592829
+Author: MorganDawe <mdawe@discoverygarden.ca>
+Date:   Wed Nov 25 14:51:48 2015 -0400
+
+    Merge branch '7.x-publication-link-view' of https://github.com/jordandukart/lib4ridora into 7.x
+
+[33mcommit 4dd471afe1f19884a8e1ec15c5185ea86209db74[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Wed Nov 25 11:21:41 2015 -0400
+
+    Removing Unset of islandora_marcxml_upload as production isn't using it.
+
+[33mcommit 203c6b6e5fca8492afaf2d203e56ed9068139e02[m
+Merge: 5d7c633 c03cc04
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Wed Nov 25 10:51:51 2015 -0400
+
+    Merge remote-tracking branch 'origin/7.x' into 7.x-citation-ingest-doi
+
+[33mcommit 5602b6b2e69b669e2f0a7365290d58863c910111[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Nov 24 16:47:16 2015 -0400
+
+    Add related research data block.
+
+[33mcommit c03cc04345a21569492e7fadc0b3366e1dbdb7f3[m
+Merge: 02e7f42 9d03555
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Nov 24 15:47:50 2015 -0400
+
+    Merge pull request #41 from matthewperry/7.x-citation-ingest
+    
+    Custom ingest selector for citations both during ingest and for editi…
+
+[33mcommit 4592829e08f57f789fc93a20c5b31e42118339d9[m
+Author: Jordan Dukart <jordan@discoverygarden.ca>
+Date:   Tue Nov 24 15:45:57 2015 -0400
+
+    Add publication link view.
+
+[33mcommit 9d0355520f4d658711da5dbcd12d2fec79c47cd6[m
+Merge: 2e3ff94 f570925
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Wed Nov 18 15:11:53 2015 -0400
+
+    Merge pull request #4 from adam-vessey/7.x-citation-ingest
+    
+    Resolve merge conflict and slight bit of "safety".
+
+[33mcommit f57092558a91025e6aaefb383108d0a0a0a6f8d4[m
+Merge: 4e9f2c1 2e3ff94
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Wed Nov 18 10:37:49 2015 -0400
+
+    Merge remote-tracking branch 'matt/7.x-citation-ingest' into 7.x-citation-ingest
+
+[33mcommit 4e9f2c104f53526a4a9ec952b0e9acea38dee1b1[m
+Merge: 410de69 02e7f42
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Wed Nov 18 10:36:20 2015 -0400
+
+    Merge remote-tracking branch 'origin/7.x' into 7.x-citation-ingest
+    
+    Conflicts:
+    	lib4ridora.module
+
+[33mcommit 410de6941e2975db70a85ec8b4bdb20b5d380260[m
+Author: Adam Vessey <adam-vessey@users.noreply.github.com>
+Date:   Wed Nov 18 10:34:28 2015 -0400
+
+    Slight bit of safety and error reporting.
+
+[33mcommit 02e7f425f795ae7b05aebd1413ab5cb0144d8d75[m
+Merge: 5bcbaac db491ae
+Author: William Panting <willtp87@hotmail.com>
+Date:   Tue Nov 17 15:10:44 2015 -0400
+
+    Merge pull request #43 from qadan/7.x-LIB-71
+    
+    7.x lib 71
+
+[33mcommit db491aeaa4ba54e6a9b86d672a56c4b2a182b33b[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 15:08:52 2015 -0400
+
+    sheezus christmas
+
+[33mcommit 76d63730b1e68f44795d363d41dcd69a4858c377[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 15:06:39 2015 -0400
+
+    detailed record in link span set
+
+[33mcommit 5206ce0a985dafab511727fce67b78888b23d41b[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 14:49:58 2015 -0400
+
+    ... and the uninstall
+
+[33mcommit 5ab50c8ec6916a0f9e4a5f2dcc8da1a619c3c807[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 14:47:05 2015 -0400
+
+    and a whoops
+
+[33mcommit 6595377445495e90e247ab811ff9bf9841186594[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 14:42:45 2015 -0400
+
+    using existing vars, setting new ones
+
+[33mcommit c7b5ba3faae2a558658db4b2484b9ab431f40bdd[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 14:08:03 2015 -0400
+
+    fixing the query so it can use solr namespace filtering
+
+[33mcommit ee030e484cc4a95b2404288f78aa82b14067b40e[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 14:01:31 2015 -0400
+
+    opting to use the solr namespace filtering
+
+[33mcommit 2ccb5f27b6c08f86b8bcc2ee58ea6a49bc2c8298[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 11:36:35 2015 -0400
+
+    handling issue with islandora_get_allowed_namespaces
+
+[33mcommit 3015f30352977e11c76422ece2dba23d31ee10f2[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Tue Nov 17 10:19:27 2015 -0400
+
+    accidentally a var
+
+[33mcommit b2a99a6377be73c7c054de08542df87f178f72c4[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 15:41:25 2015 -0400
+
+    other code review recommendations
+
+[33mcommit 49d9ae0cc93fb5f8619147f2e9d851e451514427[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 15:34:12 2015 -0400
+
+    removal of variables and things
+
+[33mcommit ab3a6970bfea1f45a8a7aef3535b514c5faea668[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 15:31:15 2015 -0400
+
+    first pass at using allowed namespaces
+
+[33mcommit 2e3ff94147370cb08d8f0690f9ff53197b8a5847[m
+Merge: 06c3782 15d0c7d
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Mon Nov 16 15:18:15 2015 -0400
+
+    Merge pull request #3 from matthewperry/adam-vessey-patch-1
+    
+    ISLANDORA_DERVIATIVE_CREATION_HOOK strikes again!
+
+[33mcommit 15d0c7d12da4705e740b88fabe112ffefd669b9b[m
+Author: Adam <adam-vessey@users.noreply.github.com>
+Date:   Mon Nov 16 15:17:09 2015 -0400
+
+    ISLANDORA_DERVIATIVE_CREATION_HOOK strikes again!
+
+[33mcommit 06c3782a47dfb345e34324bf97337459c8ff953c[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Mon Nov 16 12:21:12 2015 -0400
+
+    Updating alter.
+
+[33mcommit ea7a8408691889d0bd3d2fed525cf5e16cc636d8[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 12:15:59 2015 -0400
+
+    commenting, variable_del-ing
+
+[33mcommit f1dfc97dc17962e13e9c86c067f4cbd75018c84b[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Mon Nov 16 10:58:39 2015 -0400
+
+    Updated to reflect index change from islandora module pull request.
+
+[33mcommit 2dae9a6c3aae62098247ac39b02fdcb21f07003c[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 09:34:17 2015 -0400
+
+    always forget those new files ...
+
+[33mcommit da9b6788e6f99266557907013012ca7d8d09bdc3[m
+Author: qadan <daitken@discoverygarden.ca>
+Date:   Mon Nov 16 09:29:53 2015 -0400
+
+    citation solr results
+
+[33mcommit 83381284253feec33580c1807aa8a33e5ffd4733[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Fri Nov 13 17:02:44 2015 -0400
+
+    updated registry array.
+
+[33mcommit 61945d34540f97662e984dd993c59f6af10c9f33[m
+Author: Matthew Perry <mperry@discoverygarden.ca>
+Date:   Fri Nov 13 14:06:18 2015 -0400
+
+    Update to use a newly created alter hook to update the registry path.

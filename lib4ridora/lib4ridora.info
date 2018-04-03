@@ -1,0 +1,15 @@
+name = Lib4Ridora
+description = Custom Islandora functionality for Lib4Ri.
+core = 7.x
+dependencies[] = islandora
+dependencies[] = citeproc
+dependencies[] = islandora_bibliography
+dependencies[] = islandora_scholar
+dependencies[] = islandora_plupload
+dependencies[] = islandora_authority
+dependencies[] = xml_form_builder
+dependencies[] = islandora_mini_workflow
+dependencies[] = islandora_solr_views
+dependencies[] = islandora_solr_metadata
+package = Islandora Solution Packs
+configure = admin/islandora/solution_pack_config/lib4ridora

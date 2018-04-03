@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Lib4ridora journal view feature feature.
+ */
+
+include_once 'lib4ridora_journal_view_feature.features.inc';

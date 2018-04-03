@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for this module.
+ */
+
+
+/**
+ * Implements hook_install().
+ */
+function lib4ridora_install() {
+  module_load_include('inc', 'islandora', 'includes/solution_packs');
+  islandora_install_solution_pack('lib4ridora');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function lib4ridora_uninstall() {
+  module_load_include('inc', 'islandora', 'includes/solution_packs');
+  islandora_install_solution_pack('lib4ridora', 'uninstall');
+  $variables = array(
+    'lib4ridora_multi_pdf_defaults_property_availability',
+    'lib4ridora_restricted_datastreams',
+    'lib4ridora_author_solr_field',
+    'lib4ridora_author_fullname_solr_field',
+    'lib4ridora_issn_solr_field',
+    'lib4ridora_e_issn_solr_field',
+    'lib4ridora_solr_field_article_host_journal',
+    'lib4ridora_solr_field_article_date_issued',
+    'lib4ridora_pseudo_solr_field_factor',
+    'lib4ridora_pseudo_solr_field_year',
+    'lib4ridora_solr_field_publication_year',
+    'lib4ridora_solr_field_reporting_year',
+    'lib4ridora_solr_field_publication_type',
+    'lib4ridora_solr_field_affiliations',
+    'lib4ridora_solr_field_peer_review',
+    'lib4ridora_solr_field_document_version',
+    'lib4ridora_solr_field_document_availability',
+    'lib4ridora_solr_field_document_doi',
+    'lib4ridora_recent_additions_block_sort_parameter',
+    'lib4ridora_organization_block_organization_field',
+    'lib4ridora_organization_block_results_to_omit',
+    'lib4ridora_citation_subtype_form_associations',
+    'lib4ridora_islandora_solr_metadata_mappings',
+    'lib4ridora_citation_subtype_semantics',
+    'lib4ridora_extra_pdf_datastream_prefix',
+    'lib4ridora_uploadable_extensions',
+  );
+  array_walk($variables, 'variable_del');
+}

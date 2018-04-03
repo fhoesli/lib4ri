@@ -1,0 +1,15 @@
+name = Lib4ridora journal view feature
+description = Add override settings for an Islandora metadata display that overrides the default object view for journal objects.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = lib4ridora_journal_view_feature
+dependencies[] = ctools
+dependencies[] = islandora_solr_metadata
+dependencies[] = lib4ridora
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[islandora_solr_metadata_configurations][] = lib4ridora journal view
+features[variable][] = islandora_metadata_display
+project path = sites/all/modules/lib4ridora
